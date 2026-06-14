@@ -16,7 +16,7 @@ $(call inherit-product, vendor/omni/config/common.mk)
 $(call inherit-product, device/motorola/cuscoi/device.mk)
 
 PRODUCT_DEVICE := cuscoi
-PRODUCT_NAME := omni_cuscoi
+PRODUCT_NAME := twrp_cuscoi
 PRODUCT_BRAND := motorola
 PRODUCT_MODEL := motorola edge 50 fusion
 PRODUCT_MANUFACTURER := motorola
