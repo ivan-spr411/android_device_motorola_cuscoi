@@ -98,3 +98,15 @@ TW_SCREEN_BLANK_ON_BOOT := true
 TW_INPUT_BLACKLIST := "hbtp_vm"
 TW_USE_TOOLBOX := true
 TW_INCLUDE_REPACKTOOLS := true
+
+# OrangeFox Configuration
+FOX_BUILD_DEVICE := cuscoi
+FOX_VERSION := R12.1
+FOX_VARIANT := Stable
+FOX_USE_TWRP_RECOVERY := true
+FOX_DELETE_ARBITRARY_FILES := true
+FOX_USE_NANO_EDITOR := true
+FOX_ENABLE_APP_MANAGER := true
+FOX_INSTALLER := true
+# Це допоможе уникнути проблем з архітектурою
+FOX_TARGET_DEVICES := cuscoi
